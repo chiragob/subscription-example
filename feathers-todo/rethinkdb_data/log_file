@@ -1,0 +1,60 @@
+2017-11-28T12:19:11.839466386 0.032395s notice: Recursively removing directory /var/www/html/node/subscription/feathers-todo/rethinkdb_data/tmp
+2017-11-28T12:19:11.849470451 0.042399s notice: Initializing directory /var/www/html/node/subscription/feathers-todo/rethinkdb_data
+2017-11-28T12:19:11.849679297 0.042608s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/var/www/html/node/subscription/feathers-todo/rethinkdb_data' did not already exist or is empty.)
+2017-11-28T12:19:11.849920875 0.042849s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-11-28T12:19:11.857937573 0.050872s notice: Running on Linux 4.4.0-72-generic x86_64
+2017-11-28T12:19:11.858078052 0.051006s notice: Loading data from directory /var/www/html/node/subscription/feathers-todo/rethinkdb_data
+2017-11-28T12:19:11.907347267 0.100276s info: Automatically using cache size of 2075 MB
+2017-11-28T12:19:11.910259873 0.103188s notice: Listening for intracluster connections on port 29015
+2017-11-28T12:19:11.916751224 0.109679s notice: Listening for client driver connections on port 28015
+2017-11-28T12:19:11.924188819 0.117117s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2017-11-28T12:20:24.881545710 0.035329s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-11-28T12:20:24.884158109 0.037943s notice: Running on Linux 4.4.0-72-generic x86_64
+2017-11-28T12:20:24.884205185 0.037988s notice: Loading data from directory /var/www/html/node/subscription/feathers-todo/rethinkdb_data
+2017-11-28T12:20:24.927996464 0.081781s info: Automatically using cache size of 2070 MB
+2017-11-28T12:20:24.929989429 0.083773s notice: Listening for intracluster connections on port 29015
+2017-11-28T12:20:24.932245321 0.086028s notice: Listening for client driver connections on port 28015
+2017-11-28T12:20:24.932564350 0.086347s notice: Listening for administrative HTTP connections on port 9001
+2017-11-28T12:20:24.932569700 0.086352s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-11-28T12:20:24.932576429 0.086359s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-11-28T12:20:24.932581659 0.086364s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-11-28T12:20:24.932588148 0.086371s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-11-28T12:20:24.932594869 0.086378s notice: Server ready, "oblap28_vaq" a20ed143-0ba8-463a-97cd-41d8bbc2aeb6
+2017-11-28T12:20:26.735950912 1.889735s notice: A newer version of the RethinkDB server is available: 2.3.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2017-11-28T12:20:54.280686974 29.434470s info: Table 98248671-97ca-40f2-82b1-9e51f344405c: Starting a new Raft election for term 1.
+2017-11-28T12:20:54.286713793 29.440497s info: Table 98248671-97ca-40f2-82b1-9e51f344405c: Added replica on this server.
+2017-11-28T12:20:54.287370284 29.441153s info: Table 98248671-97ca-40f2-82b1-9e51f344405c: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-29T23:10:55.975186876 64320.198128s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2017-12-02T13:56:11.508166932 151260.345777s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2017-12-02T14:21:02.985109078 152751.822719s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2017-12-04T19:10:20.683950570 0.054831s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-12-04T19:10:20.691338360 0.062224s notice: Running on Linux 4.4.0-72-generic x86_64
+2017-12-04T19:10:20.691475757 0.062355s notice: Loading data from directory /var/www/html/node/subscription_old/feathers-todo/rethinkdb_data
+2017-12-04T19:10:20.729325763 0.100206s info: Automatically using cache size of 2100 MB
+2017-12-04T19:10:20.731809769 0.102690s notice: Listening for intracluster connections on port 29015
+2017-12-04T19:10:20.769685013 0.140565s notice: Listening for client driver connections on port 28015
+2017-12-04T19:10:20.770270811 0.141150s notice: Listening for administrative HTTP connections on port 9001
+2017-12-04T19:10:20.770275067 0.141154s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-12-04T19:10:20.770277931 0.141157s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-12-04T19:10:20.770281009 0.141160s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-12-04T19:10:20.770298713 0.141178s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-12-04T19:10:20.770302673 0.141182s notice: Server ready, "oblap28_vaq" a20ed143-0ba8-463a-97cd-41d8bbc2aeb6
+2017-12-04T19:10:21.773531041 1.144411s info: Table 98248671-97ca-40f2-82b1-9e51f344405c: Starting a new Raft election for term 2.
+2017-12-04T19:10:21.778578107 1.149458s info: Table 98248671-97ca-40f2-82b1-9e51f344405c: This server is Raft leader for term 2. Latest log index is 3.
+2017-12-04T19:10:23.504232778 2.875113s notice: A newer version of the RethinkDB server is available: 2.3.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2017-12-06T23:35:43.541871083 87480.609571s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2017-12-17T09:42:49.642443823 0.025832s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-12-17T09:42:49.647856163 0.031248s notice: Running on Linux 4.4.0-72-generic x86_64
+2017-12-17T09:42:49.647966964 0.031354s notice: Loading data from directory /var/www/html/node/subscription_old/feathers-todo/rethinkdb_data
+2017-12-17T09:42:49.681087224 0.064475s info: Automatically using cache size of 3394 MB
+2017-12-17T09:42:49.683780562 0.067169s notice: Listening for intracluster connections on port 29015
+2017-12-17T09:42:49.722524903 0.105913s notice: Listening for client driver connections on port 28015
+2017-12-17T09:42:49.723745444 0.107133s notice: Listening for administrative HTTP connections on port 9001
+2017-12-17T09:42:49.723753703 0.107141s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-12-17T09:42:49.723758811 0.107146s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-12-17T09:42:49.723764681 0.107152s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-12-17T09:42:49.723799253 0.107186s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-12-17T09:42:49.723805006 0.107192s notice: Server ready, "oblap28_vaq" a20ed143-0ba8-463a-97cd-41d8bbc2aeb6
+2017-12-17T09:42:49.737564127 0.120952s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2017-12-17T09:42:51.665290265 2.048678s info: Table 98248671-97ca-40f2-82b1-9e51f344405c: Starting a new Raft election for term 3.
+2017-12-17T09:42:51.669881606 2.053269s info: Table 98248671-97ca-40f2-82b1-9e51f344405c: This server is Raft leader for term 3. Latest log index is 6.

@@ -1,0 +1,40 @@
+{
+  "name": "subscription",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -p 9595",
+    "lint": "xo",
+    "test": "npm run lint && ava"
+  },
+  "xo": {
+    "extends": "prettier"
+  },
+  "engines": {
+    "node": "^7.7.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.87.0",
+    "config": "^1.28.1",
+    "lodash": "^4.17.4",
+    "mailparser": "^2.0.5",
+    "micro": "^7.3.3",
+    "micro-cors": "0.0.4",
+    "micro-jwt-auth": "^1.7.0",
+    "microrouter": "^2.2.0",
+    "promise": "^8.0.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "rethinkdb": "^2.3.3",
+    "underscore": "^1.8.3"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint-config-prettier": "^1.7.0",
+    "prettier": "^1.5.3",
+    "request-promise": "^4.2.1",
+    "test-listen": "^1.0.2",
+    "xo": "^0.18.1"
+  }
+}
